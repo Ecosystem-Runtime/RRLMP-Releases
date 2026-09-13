@@ -1,29 +1,35 @@
 ![Runtime Live Machine Pro](banner-rlmp-pro-v1.11.4.jpg)
 
-# Runtime Live Machine Pro
+# Runtime Live Machine Pro — il progetto si è spostato
 
-**Regia radiofonica live per Windows, macOS e Linux.** Playout multi-colonna
-(PRE-SHOW, Music, Assets, Jingle&Promo, Voice, FX), transizioni crossfade/segue/gapless,
-ducking automatico, master chain broadcast-grade, automix beat-matched, controllo
-remoto da LAN e registrazione sessione — tutto in un'unica app desktop.
+> ### 👉 **[github.com/Pitz72/RRLMP](https://github.com/Pitz72/RRLMP)**
 
-Questa repository ospita **solo le release compilate** (Windows `.exe`, macOS `.dmg`,
-Linux `.AppImage`/`.deb`). Il codice sorgente è privato.
+Dal settembre 2026 **Runtime Live Machine Pro è software libero**, rilasciato sotto **licenza MIT**.
+Codice sorgente, release, manuali e segnalazioni stanno ora nel repository del progetto:
+**[github.com/Pitz72/RRLMP](https://github.com/Pitz72/RRLMP)**.
 
-## Download
+Questa repository ospitava le release compilate della fase commerciale. Resta online **solo come
+ponte**: l'ultima release qui, la **v1.15.33**, è identica a quella del nuovo repository e porta con
+sé chi ha già il programma installato. Da quella versione in poi l'app cercherà gli aggiornamenti
+direttamente su `Pitz72/RRLMP`. **Non serve fare nulla**: basta accettare l'aggiornamento.
 
-👉 **[Scarica l'ultima versione](../../releases/latest)**
+- **Download:** [pagina Releases del progetto](https://github.com/Pitz72/RRLMP/releases)
+- **Manuale utente:** [italiano](https://github.com/Pitz72/RRLMP/raw/master/manuale-utente/typst/Manuale-Utente-IT.pdf) · [English](https://github.com/Pitz72/RRLMP/raw/master/manuale-utente/typst/User-Manual-EN.pdf)
+- **macOS:** nessun installer ufficiale; si compila dal sorgente (vedi `CONTRIBUTING.md` nel progetto)
 
-L'app include un aggiornatore integrato: al riavvio ti avviserà automaticamente
-quando è disponibile una nuova versione.
+Questa repository verrà archiviata e poi rimossa quando la migrazione sarà completa.
 
-## Changelog recente
+---
 
-- **v1.11.4** — Rifinitura modale Impostazioni (layout a due colonne, allineamento sezioni Master Chain).
-- **v1.11.3** — Controllo Remoto: tornato al semplice browser HTTP in LAN (rimossa l'app Android dedicata).
-- **v1.11.2** — Libreria FX di default ripristinata automaticamente anche sui progetti caricati con pad vuoto.
-- **v1.11.1** — Predisposizione ARM microfono dietro feature flag, in attesa di cattura audio nativa.
-- **v1.11.0** — **Automix beat-matched**: transizioni automatiche allineate al beat tra brani con BPM compatibile.
+# Runtime Live Machine Pro — the project has moved
+
+Since September 2026 **Runtime Live Machine Pro is free software**, released under the **MIT licence**.
+Source code, releases, manuals and issues now live at **[github.com/Pitz72/RRLMP](https://github.com/Pitz72/RRLMP)**.
+
+This repository hosted the compiled releases of the commercial phase. It stays online **only as a
+bridge**: its last release, **v1.15.33**, is identical to the one on the new repository and carries
+existing installations over. From that version on, the app looks for updates directly on
+`Pitz72/RRLMP`. **Nothing to do**: just accept the update.
 
 ---
 
